@@ -1,0 +1,9 @@
+.title {
+  text-align: left;
+  font-size: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
