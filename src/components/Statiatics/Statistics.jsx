@@ -1,7 +1,8 @@
 import React from 'react';
-import css from 'components/Statiatics/Statistics.module.css';
 import PropTypes from 'prop-types';
+
 import { Notification } from 'components/Notification/Notification';
+import css from 'components/Statiatics/Statistics.module.css';
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
   total === 0 ? (

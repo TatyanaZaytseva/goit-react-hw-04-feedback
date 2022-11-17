@@ -1,6 +1,7 @@
 import React from 'react';
-import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
+
+import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <ul className={css.list}>

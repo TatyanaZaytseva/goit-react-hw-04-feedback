@@ -1,6 +1,7 @@
 import React from 'react';
-import css from 'components/Notification/Notification.module.css';
 import PropTypes from 'prop-types';
+
+import css from 'components/Notification/Notification.module.css';
 
 export const Notification = ({ message }) => (
   <p className={css.notification}>{message}</p>

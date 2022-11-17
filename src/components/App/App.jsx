@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import css from 'components/App/App.module.css';
+
 import { Statistics } from 'components/Statiatics/Statistics';
 import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Section } from 'components/Section/Section';
+import css from 'components/App/App.module.css';
 
 export function App() {
   const [good, setGood] = useState(0);
